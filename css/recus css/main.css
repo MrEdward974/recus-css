@@ -1,0 +1,32 @@
+#container{}
+  display:grid;
+  grid-column:10fr;
+  grid-template-row:calc(33.33vh-10px) calc(33.33vh-10px) calc(33.33vh-10px)
+  grid-row-gap:10px;
+
+#container {1}
+  padding:9px;
+  grid-row:1;
+
+#container{2}
+  paddig:9px;
+  grid-row:2;
+
+#container{3}
+  padding:9px
+  grid-row:3;
+
+
+p{
+    text-align:center;
+    color:purple;
+}
+
+h1{
+  text-align: center;
+  color:red;
+}
+
+body{
+  background-image:url(https://www.10wallpaper.com/wallpaper/2560x1600/1511/Blue_mountains_mist-Nature_Photo_HD_Wallpaper_2560x1600.jpg);
+}
